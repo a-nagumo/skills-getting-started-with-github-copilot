@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +16,22 @@
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
-          <!-- Activities will be loaded here -->
-          <p>Loading activities...</p>
+          <!-- Example of an activity card: 
+               Each card represents an extracurricular activity. 
+               It includes the activity name, a description, and a list of participants. -->
+          <div class="activity-card">
+            <h4>Basketball Club</h4>
+            <p>Join the basketball club to improve your skills and compete in tournaments.</p>
+            <div class="participants">
+              <h5>Participants:</h5>
+              <ul>
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+                <li>Alex Johnson</li>
+              </ul>
+          <!-- Additional activity cards will be dynamically loaded here by app.js -->
+          </div>
+          <!-- Additional activity cards will be dynamically loaded here -->
         </div>
       </section>
 
@@ -45,6 +59,6 @@
       <p>&copy; 2023 Mergington High School</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </body>
 </html>
