@@ -74,7 +74,7 @@ activities = {
         "schedule": "Fridays, 4:00 PM - 5:00 PM",
         "max_participants": 12,
         "participants": ["elijah@mergington.edu", "lucas@mergington.edu"]
-    }
+    }#temp
 }
 
 
